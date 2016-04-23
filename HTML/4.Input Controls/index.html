@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+<hr>
+
+<h3>TextArea</h3>
+
+<textarea rows="3" cols="30">
+We live in a mobile-first and cloud-first world. Computing is ubiquitous, and experiences span devices and exhibit ambient intelligence.
+</textarea>
+
+<h5>Code</h5>
+<code style="background: #ae8">
+
+    &lttextarea rows="3" cols="30"&gt <br>
+We live in a mobile-first and cloud-first world. Computing is ubiquitous, and experiences span devices and exhibit ambient intelligence.<br>
+    &lt/textarea&gt
+</code>
+<hr>
+
+<h3>Select</h3>
+<select>
+    <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+    <option value="DAT204x">Introduction to R Programming</option>
+    <option value="CLD203x">Office 365: Managing Identities and Services</option>
+    <option value="DEV208x">Introduction to jQuery</option>
+</select>
+
+<hr>
+<h4>Grouped Options</h4>
+<select>
+    <optgroup label="Data Platform">
+        <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+        <option value="DAT204x">Introduction to R Programming</option>
+    </optgroup>
+    <optgroup label="Cloud">
+        <option value="CLD203x">Office 365: Managing Identities and Services</option>
+    </optgroup>
+    <optgroup label="Development">
+        <option value="DEV208x">Introduction to jQuery</option>
+    </optgroup>
+</select>
+
+<hr>
+
+<fieldset>
+    <legend>Input</legend>
+
+        <legend>Visual Representation:
+            <h4>Example 1: </h4>
+            <form>
+                Username: <input type="text" name="username" placeholder="Write your username here" />
+                E-mail Address: <input type="email" name="emailaddress" placeholder="Write your email here" />
+                <input type="submit" value="Click me to submit"/>
+
+            </form>
+
+            <h4>Example 2:</h4>
+            <form>
+                Age: <input type="range" name="age" min="10" max="90" value="35" />
+                E-mail Address: <input type="email" name="emailaddress" placeholder="Write your email here" />
+
+                <input type="submit" value="Click me to submit"/>
+           </form>
+
+        </legend>
+
+
+
+
+
+
+</fieldset>
+<h4>Input</h4>
+<form >
+    Username: <input type="text" name="username" />
+    E-mail Address: <input type="email" name="emailaddress" />
+</form>
+
+<hr>
+<h4>Button</h4>
+
+<button type="button">
+    <img src="https://cdn1.iconfinder.com/data/icons/smallicons-logotypes/32/microsoft-64.png" alt="Microsoft" />
+    <br />
+    Apply to Microsoft!
+</button>
+
+<hr>
+<h4>Input Attributes</h4>
+Email: "Required" <input name="email_address" type="email" required="required"/><br/>
+Zip code: "Pattern"<input name="zip_code" type="text" pattern="\d{5}(-\d{4})?" required="required"/><br/>
+Profile Url: "Readonly" <input name="profile_url" type="url" readonly="readonly"/><br/>
+Submit: Disabled <input type="submit" disabled="disabled"/><br/>
+Quantity: "Min and Max" <input name="issue_quantity" type="range" min="1" max="15" /><br/>
+Birth Date : "Date" <input name="service_date" type="date" min="2000-01-01" max="2999-12-31"/><br/>
+Automplete: <input name="api_key" type="text" autocomplete="off"/><br/>
+Placeholder: <input name="account_name" type="text" placeholder="Account name must contain at least 4 characters."><br/>
+Color:<input name="color" type="color"><br/>
+DateTime - Local: <input name="datetime-Local" type="datetime-local"/><br/>
+Month: <input name="month" type="month"/><br/>
+Number: <input name="number" type="number"/><br/>
+Search: <input name="search" type="search"><br/>
+Time: <input name="telephone" type="time"/><br/>
+Week: <input name="week" type="week"/><br/>
+
+<hr/>
+<h4>No Validate</h4>
+<form>
+    Username: <input type="text" name="username" />
+    E-mail Address: <input type="email" name="emailaddress" />
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
